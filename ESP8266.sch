@@ -1,0 +1,303 @@
+EESchema Schematic File Version 2
+LIBS:modularLed-rescue
+LIBS:LedDrivers
+LIBS:ESP8266
+LIBS:atmel
+LIBS:power
+LIBS:conn
+LIBS:SparkFun-Connectors
+LIBS:diode
+LIBS:device
+LIBS:regul
+LIBS:Power_Management
+LIBS:wirepad
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:74xx
+LIBS:74xgxx
+LIBS:ttl_ieee
+LIBS:intersil
+LIBS:dc-dc
+LIBS:MyLibrary
+LIBS:modularLed-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C702
+U 1 1 571897B9
+P 3000 2750
+F 0 "C702" H 3115 2796 50  0000 L CNN
+F 1 "0.1uF" H 3115 2704 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3038 2600 50  0001 C CNN
+F 3 "" H 3000 2750 50  0000 C CNN
+	1    3000 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ISL83485 U702
+U 1 1 571897CC
+P 5950 4200
+F 0 "U702" H 5950 4903 60  0000 C CNN
+F 1 "ISL83485" H 5950 4797 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6625 3575 60  0001 C CNN
+F 3 "" H 6150 3975 60  0000 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+Text Label 3850 2750 2    60   ~ 0
+ESP_TX
+Text Label 5350 4400 2    60   ~ 0
+ESP_TX
+$Comp
+L C C703
+U 1 1 571897E1
+P 4550 4250
+F 0 "C703" H 4665 4296 50  0000 L CNN
+F 1 "0.1uF" H 4665 4204 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4588 4100 50  0001 C CNN
+F 3 "" H 4550 4250 50  0000 C CNN
+	1    4550 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L R R705
+U 1 1 571897E8
+P 5100 4050
+F 0 "R705" H 5170 4096 50  0000 L CNN
+F 1 "10k" H 5170 4004 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5030 4050 50  0001 C CNN
+F 3 "" H 5100 4050 50  0000 C CNN
+	1    5100 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R702
+U 1 1 571897F8
+P 3250 2450
+F 0 "R702" H 3320 2496 50  0000 L CNN
+F 1 "10k" H 3320 2404 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3180 2450 50  0001 C CNN
+F 3 "" H 3250 2450 50  0000 C CNN
+	1    3250 2450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R704
+U 1 1 571897FF
+P 5950 2950
+F 0 "R704" H 6020 2996 50  0000 L CNN
+F 1 "10k" H 6020 2904 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 2950 50  0001 C CNN
+F 3 "" H 5950 2950 50  0000 C CNN
+	1    5950 2950
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R701
+U 1 1 5718980C
+P 5950 2350
+F 0 "R701" H 6020 2396 50  0000 L CNN
+F 1 "10k" H 6020 2304 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 2350 50  0001 C CNN
+F 3 "" H 5950 2350 50  0000 C CNN
+	1    5950 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R706
+U 1 1 571898AE
+P 6000 4900
+F 0 "R706" V 5792 4900 50  0000 C CNN
+F 1 "120R" V 5884 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 4900 50  0001 C CNN
+F 3 "" H 6000 4900 50  0000 C CNN
+	1    6000 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L ESP-12 U701
+U 1 1 571898BC
+P 4750 2650
+F 0 "U701" H 4750 3316 50  0000 C CNN
+F 1 "ESP-12" H 4750 3224 50  0000 C CNN
+F 2 "ESP8266:ESP-12" H 4750 2650 50  0001 C CNN
+F 3 "" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P701
+U 1 1 571898C3
+P 8950 2850
+F 0 "P701" V 8950 3200 50  0000 L CNN
+F 1 "CONN_01X06" V 8950 2000 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06" H 8950 2850 50  0001 C CNN
+F 3 "" H 8950 2850 50  0000 C CNN
+	1    8950 2850
+	1    0    0    1   
+$EndComp
+Text Label 3850 2850 2    60   ~ 0
+ESP_RX
+Text Label 8750 2800 2    60   ~ 0
+ESP_RX
+Text Label 8750 2700 2    60   ~ 0
+ESP_TX
+Text HLabel 2850 2250 0    60   Input ~ 0
+VCC
+Text HLabel 2850 3050 0    60   Input ~ 0
+GND
+Text HLabel 6550 4250 2    60   Input ~ 0
+RX+
+Text HLabel 6550 4100 2    60   Input ~ 0
+RX-
+Wire Wire Line
+	2850 2250 3850 2250
+Wire Wire Line
+	3000 2600 3000 2250
+Wire Wire Line
+	2850 3050 3850 3050
+Wire Wire Line
+	4400 4550 5350 4550
+Wire Wire Line
+	4400 3800 5350 3800
+Wire Wire Line
+	5100 4250 5350 4250
+Wire Wire Line
+	5100 4250 5100 4200
+Wire Wire Line
+	5350 4100 5250 4100
+Wire Wire Line
+	5250 4100 5250 4250
+Connection ~ 5250 4250
+Wire Wire Line
+	5100 3900 5100 3800
+Connection ~ 5100 3800
+Wire Wire Line
+	3250 2650 3850 2650
+Wire Wire Line
+	3250 2650 3250 2600
+Wire Wire Line
+	3250 2300 3250 2250
+Connection ~ 3250 2250
+Wire Wire Line
+	5800 2350 5650 2350
+Wire Wire Line
+	6100 2350 6200 2350
+Wire Wire Line
+	5650 2950 5800 2950
+Wire Wire Line
+	3850 2450 3750 2450
+Wire Wire Line
+	3750 2450 3750 2650
+Connection ~ 3750 2650
+Connection ~ 3000 2250
+Wire Wire Line
+	3000 3050 3000 2900
+Connection ~ 3000 3050
+Text HLabel 8750 3100 0    60   Input ~ 0
+GND
+Text HLabel 8750 2900 0    60   Input ~ 0
+VCC
+Text HLabel 6150 4900 2    60   Input ~ 0
+RX-
+Text HLabel 5800 4900 0    60   Input ~ 0
+RX+
+Wire Wire Line
+	4550 3800 4550 4100
+Text HLabel 4400 3800 0    60   Input ~ 0
+VCC
+Connection ~ 4550 3800
+Wire Wire Line
+	4550 4550 4550 4400
+Text HLabel 4400 4550 0    60   Input ~ 0
+GND
+Connection ~ 4550 4550
+Text HLabel 6200 2950 2    60   Input ~ 0
+VCC
+Wire Wire Line
+	6200 2950 6100 2950
+Text HLabel 6200 2350 2    60   Input ~ 0
+GND
+$Comp
+L C C701
+U 1 1 57197E84
+P 7400 2600
+F 0 "C701" V 7148 2600 50  0000 C CNN
+F 1 "0.1uF" V 7239 2600 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7438 2450 50  0001 C CNN
+F 3 "" H 7400 2600 50  0000 C CNN
+	1    7400 2600
+	0    1    1    0   
+$EndComp
+Text Label 3750 2450 2    60   ~ 0
+ESP_RST
+Text Label 7250 2600 2    60   ~ 0
+ESP_RST
+Wire Wire Line
+	5650 3050 7250 3050
+Wire Wire Line
+	7550 2600 7750 2600
+Wire Wire Line
+	7650 2600 7650 3050
+Wire Wire Line
+	7650 3050 7550 3050
+Connection ~ 7650 2600
+Wire Wire Line
+	8050 2600 8750 2600
+$Comp
+L R R703
+U 1 1 57199498
+P 6650 2750
+F 0 "R703" H 6720 2796 50  0000 L CNN
+F 1 "10k" H 6720 2704 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 2750 50  0001 C CNN
+F 3 "" H 6650 2750 50  0000 C CNN
+	1    6650 2750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6650 2900 6650 3050
+Connection ~ 6650 3050
+Text HLabel 6650 2450 1    60   Input ~ 0
+VCC
+Wire Wire Line
+	6650 2450 6650 2600
+$Comp
+L BAT54 D702
+U 1 1 57199AAD
+P 7400 3050
+AR Path="/57199AAD" Ref="D702"  Part="1" 
+AR Path="/571894E1/57199AAD" Ref="D702"  Part="1" 
+F 0 "D702" H 7400 3265 50  0000 C CNN
+F 1 "BAT54" H 7400 3174 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7400 3200 50  0001 C CNN
+F 3 "" H 7400 3050 60  0000 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BAT54 D701
+U 1 1 57199B7A
+P 7900 2600
+AR Path="/57199B7A" Ref="D701"  Part="1" 
+AR Path="/571894E1/57199B7A" Ref="D701"  Part="1" 
+F 0 "D701" H 7900 2815 50  0000 C CNN
+F 1 "BAT54" H 7900 2724 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7900 2750 50  0001 C CNN
+F 3 "" H 7900 2600 60  0000 C CNN
+	1    7900 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

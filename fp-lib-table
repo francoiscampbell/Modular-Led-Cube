@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name wirepad)(type Legacy)(uri /Users/francois/GoogleDrive/Electronics/KiCad/converted-eagle-libs/wirepad.mod)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri /Users/francois/GoogleDrive/Electronics/KiCad/libs/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
+  (lib (name SparkFun-Connectors)(type KiCad)(uri /Users/francois/GoogleDrive/Electronics/KiCad/converted-eagle-libs/SparkFun-Connectors.pretty)(options "")(descr ""))
+)

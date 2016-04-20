@@ -1,0 +1,539 @@
+EESchema Schematic File Version 2
+LIBS:LedDrivers
+LIBS:ESP8266
+LIBS:atmel
+LIBS:power
+LIBS:conn
+LIBS:SparkFun-Connectors
+LIBS:My Library
+LIBS:diode
+LIBS:device
+LIBS:regul
+LIBS:Power_Management
+LIBS:wirepad
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:74xx
+LIBS:74xgxx
+LIBS:ttl_ieee
+LIBS:intersil
+LIBS:dc-dc
+LIBS:modularLed-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +3.3V #PWR?
+U 1 1 571897B3
+P 3300 3100
+F 0 "#PWR?" H 3300 2950 50  0001 C CNN
+F 1 "+3.3V" H 3318 3274 50  0000 C CNN
+F 2 "" H 3300 3100 50  0000 C CNN
+F 3 "" H 3300 3100 50  0000 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571897B9
+P 3150 3750
+F 0 "C?" H 3265 3796 50  0000 L CNN
+F 1 "0.1uF" H 3265 3704 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3188 3600 50  0001 C CNN
+F 3 "" H 3150 3750 50  0000 C CNN
+	1    3150 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571897C0
+P 3150 4150
+F 0 "#PWR?" H 3150 3900 50  0001 C CNN
+F 1 "GND" H 3158 3976 50  0000 C CNN
+F 2 "" H 3150 4150 50  0000 C CNN
+F 3 "" H 3150 4150 50  0000 C CNN
+	1    3150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ISL83485 U?
+U 1 1 571897CC
+P 7450 3550
+F 0 "U?" H 7450 4253 60  0000 C CNN
+F 1 "ISL83485" H 7450 4147 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 8125 2925 60  0001 C CNN
+F 3 "" H 7650 3325 60  0000 C CNN
+	1    7450 3550
+	1    0    0    -1  
+$EndComp
+Text Label 3650 3750 2    60   ~ 0
+ESP_TX
+Text Label 6850 3750 2    60   ~ 0
+ESP_TX
+$Comp
+L GND #PWR?
+U 1 1 571897D5
+P 6750 4000
+F 0 "#PWR?" H 6750 3750 50  0001 C CNN
+F 1 "GND" H 6758 3826 50  0000 C CNN
+F 2 "" H 6750 4000 50  0000 C CNN
+F 3 "" H 6750 4000 50  0000 C CNN
+	1    6750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 571897DB
+P 6750 3050
+F 0 "#PWR?" H 6750 2900 50  0001 C CNN
+F 1 "+3.3V" H 6768 3224 50  0000 C CNN
+F 2 "" H 6750 3050 50  0000 C CNN
+F 3 "" H 6750 3050 50  0000 C CNN
+	1    6750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 571897E1
+P 6450 3150
+F 0 "C?" H 6565 3196 50  0000 L CNN
+F 1 "0.1uF" H 6565 3104 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6488 3000 50  0001 C CNN
+F 3 "" H 6450 3150 50  0000 C CNN
+	1    6450 3150
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 571897E8
+P 6650 3400
+F 0 "R?" H 6720 3446 50  0000 L CNN
+F 1 "10k" H 6720 3354 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 3400 50  0001 C CNN
+F 3 "" H 6650 3400 50  0000 C CNN
+	1    6650 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571897EF
+P 6200 3250
+F 0 "#PWR?" H 6200 3000 50  0001 C CNN
+F 1 "GND" H 6208 3076 50  0000 C CNN
+F 2 "" H 6200 3250 50  0000 C CNN
+F 3 "" H 6200 3250 50  0000 C CNN
+	1    6200 3250
+	1    0    0    -1  
+$EndComp
+Text Label 8050 3600 0    60   ~ 0
+RX+
+Text Label 8050 3450 0    60   ~ 0
+RX-
+$Comp
+L R R?
+U 1 1 571897F8
+P 3400 3450
+F 0 "R?" H 3470 3496 50  0000 L CNN
+F 1 "10k" H 3470 3404 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 3450 50  0001 C CNN
+F 3 "" H 3400 3450 50  0000 C CNN
+	1    3400 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 571897FF
+P 5550 3750
+F 0 "R?" H 5620 3796 50  0000 L CNN
+F 1 "10k" H 5620 3704 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5480 3750 50  0001 C CNN
+F 3 "" H 5550 3750 50  0000 C CNN
+	1    5550 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 57189806
+P 5550 3150
+F 0 "#PWR?" H 5550 3000 50  0001 C CNN
+F 1 "+3.3V" H 5568 3324 50  0000 C CNN
+F 2 "" H 5550 3150 50  0000 C CNN
+F 3 "" H 5550 3150 50  0000 C CNN
+	1    5550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5718980C
+P 5750 3350
+F 0 "R?" H 5820 3396 50  0000 L CNN
+F 1 "10k" H 5820 3304 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5680 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0000 C CNN
+	1    5750 3350
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57189813
+P 5950 3450
+F 0 "#PWR?" H 5950 3200 50  0001 C CNN
+F 1 "GND" H 5958 3276 50  0000 C CNN
+F 2 "" H 5950 3450 50  0000 C CNN
+F 3 "" H 5950 3450 50  0000 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+Text Label 8650 3300 2    60   ~ 0
+ADDRX0
+Text Label 8650 3400 2    60   ~ 0
+ADDRX1
+Text Label 8650 3500 2    60   ~ 0
+ADDRX2
+Text Label 8650 3600 2    60   ~ 0
+ADDRX3
+Text Label 8650 3700 2    60   ~ 0
+ADDRY0
+Text Label 8650 3800 2    60   ~ 0
+ADDRY1
+Text Label 8650 3900 2    60   ~ 0
+ADDRY2
+Text Label 8650 4000 2    60   ~ 0
+ADDRY3
+Wire Wire Line
+	3300 3100 3300 3250
+Wire Wire Line
+	3150 3250 3650 3250
+Wire Wire Line
+	3150 3600 3150 3250
+Connection ~ 3300 3250
+Wire Wire Line
+	3650 4050 3150 4050
+Wire Wire Line
+	3150 3900 3150 4150
+Connection ~ 3150 4050
+Wire Wire Line
+	6850 3900 6750 3900
+Wire Wire Line
+	6750 3900 6750 4000
+Wire Wire Line
+	6600 3150 6850 3150
+Wire Wire Line
+	6750 3150 6750 3050
+Connection ~ 6750 3150
+Wire Wire Line
+	6300 3150 6200 3150
+Wire Wire Line
+	6650 3600 6850 3600
+Wire Wire Line
+	6650 3600 6650 3550
+Wire Wire Line
+	6850 3450 6750 3450
+Wire Wire Line
+	6750 3450 6750 3600
+Connection ~ 6750 3600
+Wire Wire Line
+	6650 3250 6650 3150
+Connection ~ 6650 3150
+Wire Wire Line
+	3650 3650 3400 3650
+Wire Wire Line
+	3400 3650 3400 3600
+Wire Wire Line
+	3400 3300 3400 3250
+Connection ~ 3400 3250
+Wire Wire Line
+	5600 3350 5450 3350
+Wire Wire Line
+	5950 3450 5950 3350
+Wire Wire Line
+	5950 3350 5900 3350
+Wire Wire Line
+	6200 3150 6200 3250
+$Comp
+L GND #PWR?
+U 1 1 57189840
+P 9150 4100
+F 0 "#PWR?" H 9150 3850 50  0001 C CNN
+F 1 "GND" H 9158 3926 50  0000 C CNN
+F 2 "" H 9150 4100 50  0000 C CNN
+F 3 "" H 9150 4100 50  0000 C CNN
+	1    9150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57189846
+P 9000 3300
+F 0 "R?" V 8950 3450 50  0000 L CNN
+F 1 "10k" V 9000 3250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3300 50  0001 C CNN
+F 3 "" H 9000 3300 50  0000 C CNN
+	1    9000 3300
+	0    -1   1    0   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5718984D
+P 8850 2900
+F 0 "#PWR?" H 8850 2750 50  0001 C CNN
+F 1 "+12V" H 8868 3074 50  0000 C CNN
+F 2 "" H 8850 2900 50  0000 C CNN
+F 3 "" H 8850 2900 50  0000 C CNN
+	1    8850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2950 8850 2950
+Wire Wire Line
+	8850 2950 8850 2900
+$Comp
+L GND #PWR?
+U 1 1 57189855
+P 9100 2950
+F 0 "#PWR?" H 9100 2700 50  0001 C CNN
+F 1 "GND" H 9108 2776 50  0000 C CNN
+F 2 "" H 9100 2950 50  0000 C CNN
+F 3 "" H 9100 2950 50  0000 C CNN
+	1    9100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3150 8950 3150
+Wire Wire Line
+	8950 3150 8950 2900
+Wire Wire Line
+	8950 2900 9100 2900
+Wire Wire Line
+	9100 2900 9100 2950
+Wire Wire Line
+	8850 3300 8650 3300
+Wire Wire Line
+	9150 3300 9200 3300
+$Comp
+L R R?
+U 1 1 57189863
+P 9000 3500
+F 0 "R?" V 8950 3650 50  0000 L CNN
+F 1 "10k" V 9000 3450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3500 50  0001 C CNN
+F 3 "" H 9000 3500 50  0000 C CNN
+	1    9000 3500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3500 8650 3500
+Wire Wire Line
+	9200 3500 9150 3500
+$Comp
+L R R?
+U 1 1 5718986C
+P 9000 3400
+F 0 "R?" V 8950 3550 50  0000 L CNN
+F 1 "10k" V 9000 3350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3400 50  0001 C CNN
+F 3 "" H 9000 3400 50  0000 C CNN
+	1    9000 3400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3400 8650 3400
+Wire Wire Line
+	9150 3400 9200 3400
+$Comp
+L R R?
+U 1 1 57189875
+P 9000 3600
+F 0 "R?" V 8950 3750 50  0000 L CNN
+F 1 "10k" V 9000 3550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3600 50  0001 C CNN
+F 3 "" H 9000 3600 50  0000 C CNN
+	1    9000 3600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3600 8650 3600
+Wire Wire Line
+	9200 3600 9150 3600
+$Comp
+L R R?
+U 1 1 5718987E
+P 9000 3700
+F 0 "R?" V 8950 3850 50  0000 L CNN
+F 1 "10k" V 9000 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3700 50  0001 C CNN
+F 3 "" H 9000 3700 50  0000 C CNN
+	1    9000 3700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3700 8650 3700
+Wire Wire Line
+	9200 3700 9150 3700
+$Comp
+L R R?
+U 1 1 57189887
+P 9000 3800
+F 0 "R?" V 8950 3950 50  0000 L CNN
+F 1 "10k" V 9000 3750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3800 50  0001 C CNN
+F 3 "" H 9000 3800 50  0000 C CNN
+	1    9000 3800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3800 8650 3800
+Wire Wire Line
+	9200 3800 9150 3800
+$Comp
+L R R?
+U 1 1 57189890
+P 9000 3900
+F 0 "R?" V 8950 4050 50  0000 L CNN
+F 1 "10k" V 9000 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0000 C CNN
+	1    9000 3900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 3900 8650 3900
+Wire Wire Line
+	9200 3900 9150 3900
+$Comp
+L R R?
+U 1 1 57189899
+P 9000 4000
+F 0 "R?" V 8950 4150 50  0000 L CNN
+F 1 "10k" V 9000 3950 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 4000 50  0001 C CNN
+F 3 "" H 9000 4000 50  0000 C CNN
+	1    9000 4000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8850 4000 8650 4000
+Wire Wire Line
+	9200 4000 9150 4000
+Wire Wire Line
+	9200 3300 9200 4050
+Connection ~ 9200 3400
+Connection ~ 9200 3500
+Connection ~ 9200 3600
+Connection ~ 9200 3700
+Connection ~ 9200 3800
+Connection ~ 9200 3900
+Connection ~ 9200 4000
+Wire Wire Line
+	9200 4050 9150 4050
+Wire Wire Line
+	9150 4050 9150 4100
+Text Label 7550 4250 0    60   ~ 0
+RX-
+Text Label 7250 4250 2    60   ~ 0
+RX+
+$Comp
+L R R?
+U 1 1 571898AE
+P 7400 4250
+F 0 "R?" V 7192 4250 50  0000 C CNN
+F 1 "120R" V 7284 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 4250 50  0001 C CNN
+F 3 "" H 7400 4250 50  0000 C CNN
+	1    7400 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L POWER_JACKPTH J?
+U 1 1 571898B5
+P 8550 3250
+AR Path="/571898B5" Ref="J?"  Part="1" 
+AR Path="/571894E1/571898B5" Ref="J?"  Part="1" 
+F 0 "J?" H 8406 3746 50  0000 C CNN
+F 1 "POWER_JACKPTH" H 8406 3654 50  0000 C CNN
+F 2 "SparkFun-Connectors:SparkFun-Connectors-POWER_JACK_PTH" H 8580 3400 20  0001 C CNN
+F 3 "" H 8550 3250 60  0000 C CNN
+	1    8550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP-12 U?
+U 1 1 571898BC
+P 4550 3650
+F 0 "U?" H 4550 4316 50  0000 C CNN
+F 1 "ESP-12" H 4550 4224 50  0000 C CNN
+F 2 "ESP8266:ESP-12" H 4550 3650 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 571898C3
+P 6100 4300
+F 0 "P?" V 6100 4650 50  0000 L CNN
+F 1 "CONN_01X06" V 6100 3450 50  0000 L CNN
+F 2 "SparkFun-Connectors:SparkFun-Connectors-1X06" H 6100 4300 50  0001 C CNN
+F 3 "" H 6100 4300 50  0000 C CNN
+	1    6100 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 571898CA
+P 6550 4000
+F 0 "#PWR?" H 6550 3750 50  0001 C CNN
+F 1 "GND" H 6558 3826 50  0000 C CNN
+F 2 "" H 6550 4000 50  0000 C CNN
+F 3 "" H 6550 4000 50  0000 C CNN
+	1    6550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4000 6550 3900
+Wire Wire Line
+	6550 3900 6350 3900
+Wire Wire Line
+	6350 3900 6350 4100
+$Comp
+L +3.3V #PWR?
+U 1 1 571898D3
+P 6150 4000
+F 0 "#PWR?" H 6150 3850 50  0001 C CNN
+F 1 "+3.3V" H 6168 4174 50  0000 C CNN
+F 2 "" H 6150 4000 50  0000 C CNN
+F 3 "" H 6150 4000 50  0000 C CNN
+	1    6150 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4000 6150 4100
+Text Label 3650 3850 2    60   ~ 0
+ESP_RX
+Text Label 6050 4100 1    60   ~ 0
+ESP_RX
+Text Label 5950 4100 1    60   ~ 0
+ESP_TX
+Wire Wire Line
+	5450 3950 5550 3950
+Wire Wire Line
+	5550 3950 5550 3900
+Wire Wire Line
+	5550 3600 5550 3150
+Wire Wire Line
+	3650 3450 3550 3450
+Wire Wire Line
+	3550 3450 3550 3650
+Connection ~ 3550 3650
+$EndSCHEMATC
