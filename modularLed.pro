@@ -1,4 +1,4 @@
-update=Tuesday, April 19, 2016 'pmt' 11:49:13 pm
+update=Wednesday, April 20, 2016 'amt' 12:22:36 am
 last_client=kicad
 [general]
 version=1
@@ -26,3 +26,14 @@ LibName17=ttl_ieee
 LibName18=intersil
 LibName19=dc-dc
 LibName20=MyLibrary
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
