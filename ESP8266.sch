@@ -212,7 +212,7 @@ Text HLabel 8750 2900 0    60   Input ~ 0
 VCC
 Text HLabel 6150 4900 2    60   Input ~ 0
 RX-
-Text HLabel 5800 4900 0    60   Input ~ 0
+Text HLabel 5850 4900 0    60   Input ~ 0
 RX+
 Wire Wire Line
 	4550 3800 4550 4100
