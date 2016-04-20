@@ -3,9 +3,9 @@
   (general
     (links 478)
     (no_connects 478)
-    (area 88.824999 50.724999 190.575001 152.475001)
+    (area 28.736999 47.3025 279.520234 278.695311)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 0)
     (zones 0)
     (modules 173)
@@ -5745,7 +5745,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716A9F4)
-    (at 81.707143 234.670461)
+    (at 154.94 66.04)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571445D8)
@@ -5770,7 +5770,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA01)
-    (at 68.097143 244.500461)
+    (at 158.75 66.04)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57145146)
@@ -5795,7 +5795,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA0E)
-    (at 95.317143 224.840461)
+    (at 171.45 66.04)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571452E2)
@@ -5820,7 +5820,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA1B)
-    (at 68.097143 249.350461)
+    (at 175.26 66.04)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/5714549E)
@@ -5845,7 +5845,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA5C)
-    (at 95.317143 229.690461)
+    (at 154.94 69.85)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57144DD0)
@@ -5870,7 +5870,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA69)
-    (at 103.097143 224.840461)
+    (at 158.75 69.85)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57145154)
@@ -5895,7 +5895,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA76)
-    (at 75.877143 249.350461)
+    (at 171.45 69.85)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571452F0)
@@ -5920,7 +5920,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AA83)
-    (at 107.667143 219.860461)
+    (at 175.26 69.85)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571454AC)
@@ -5945,7 +5945,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AAEB)
-    (at 83.657143 249.220461)
+    (at 175.26 86.36)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571454C8)
@@ -5970,7 +5970,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AAF8)
-    (at 110.877143 224.710461)
+    (at 171.45 86.36)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/5714530C)
@@ -5995,7 +5995,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB05)
-    (at 103.097143 229.690461)
+    (at 158.75 86.36)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57145170)
@@ -6020,7 +6020,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB12)
-    (at 97.267143 234.540461)
+    (at 154.94 86.36)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57144F6A)
@@ -6045,7 +6045,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB53)
-    (at 99.217143 244.240461)
+    (at 175.26 82.55)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571454BA)
@@ -6070,7 +6070,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB60)
-    (at 112.827143 234.410461)
+    (at 171.45 82.55)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/571452FE)
@@ -6095,7 +6095,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB6D)
-    (at 118.657143 229.560461)
+    (at 158.75 82.55)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57145162)
@@ -6120,7 +6120,7 @@
   )
 
   (module Wire_Pads:wirepad-2_54_1_0 (layer F.Cu) (tedit 57170CDF) (tstamp 5716AB7A)
-    (at 99.217143 249.090461)
+    (at 154.94 82.55)
     (descr "THROUGH-HOLE PAD")
     (tags "THROUGH-HOLE PAD")
     (path /5713FA0A/5716B5E6/57144F5E)
@@ -6669,6 +6669,9 @@
       (net 206 "Net-(PAD109-Pad1)"))
   )
 
+  (gr_text "Rows 0-15" (at 114.3 88.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 88.9 152.4) (end 88.9 50.8) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 190.5 152.4) (end 88.9 152.4) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 190.5 50.8) (end 190.5 152.4) (layer Edge.Cuts) (width 0.15))
